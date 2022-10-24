@@ -1,0 +1,119 @@
+body{
+	font-family: verdana;
+    color: white;
+	background: rgb(228,114,0);
+	background: linear-gradient(0deg, rgba(228,114,0,1) 14%, rgba(230,155,0,1) 70%, rgba(229,222,0,1) 98%);
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	margin: 20px auto;	
+}
+
+#container h1 {
+	text-align: center;
+	font-size: 15px;
+	color: black;
+}
+
+#calculator{
+	width: 320px;
+	height: 530px;
+	background-color: #023047;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 150px;
+}
+
+
+#history{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 20px;
+	color: #ffa500;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 40px;
+}
+#keyboard{
+	height: 400px;
+    padding-left: 10px;
+
+}
+.operator, .number, .empty{
+	width: 65px;
+	height: 65px;
+	margin: 5px;
+	float: left;
+	border-radius: 25%;
+	border-width: 0;
+    font-family: verdana;
+	font-size: 20px;
+    outline-offset: 4px;
+    background-color: #02304787;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: grey;
+
+	
+}
+
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+    transform: translateY(-2px);
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(1){
+	font-size: 20px;
+	color: #ffa500;
+}
+
+button:nth-child(2){
+	font-size: 20px;
+	color: #ffa500;
+}
+
+button:nth-child(3){
+	font-size: 20px;
+	color: #ffa500;
+}
+
+button:nth-child(4){
+	font-size: 20px;
+	color: #ffa500;
+}
+button:nth-child(8){
+	font-size: 20px;
+    color: #ffa500;
+}
+
+button:nth-child(12){
+	font-size: 20px;
+	color: #ffa500;
+}
+button:nth-child(16){
+	font-size: 20px;
+	color: #ffa500;
+}
+
+button:nth-child(19){
+	font-size: 20px;
+	background: rgb(255,83,65);
+    background: linear-gradient(90deg, rgba(255,83,65,1) 40%, rgba(255,136,32,1) 73%, rgba(246,186,0,1) 97%);
+    width: 140px;
+    border-radius: 15px;
+    color: white;
+}
